@@ -1,6 +1,6 @@
 # Image-processing-Tool
 
-One executable to extract all image from input  MP4 vdeo file. 
+One executable to extract all image from input  MP4 video file. 
 By running the following command :
 > cut.exe motif
 
