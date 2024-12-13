@@ -1,5 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: Le répertoire intermédiaire (x64\Release\) contient des fichiers partagés provenant d'un autre projet (suppr.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
-  generate.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
-  LINK : /LTCG spécifié mais aucune génération de code requise ; supprimez /LTCG de la ligne de commande de l'édition de liens pour améliorer les performances de l'éditeur de liens
-  suppr.vcxproj -> C:\Users\lagad\source\repos\generate\x64\Release\generate.exe
