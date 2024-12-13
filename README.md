@@ -20,12 +20,17 @@ All images are taken in subfolder TIMELINE with motif1_0000X.jpeg, then motif2_0
 All binary are available at this link :
 https://drive.google.com/drive/folders/1BN0DgaXIAHkKFqZpf51XUxbzJN2tTDJ3?usp=sharing
 
+--------------------------
+
 To compilation of source file :
+--------------------------
 Visual Studio 2022.
-In 64 bits, mode all dependancy are linked and for execution you could download previous linked to run exececutable generated.
+  In 64 bits, mode all dependancy are linked and for execution you could download previous linked to run exececutable generated.
 
 For cut.exe :
-  No special need execpt OpenCV version.
+--------------------------
+  No special needs, except OpenCV version.
 
-For generate.exe : 
-  CLR is used, so it need the correct package with visual to compilation
+For generate.exe :
+--------------------------
+  CLR is used, so it need the correct package with visual studio to process compilation
