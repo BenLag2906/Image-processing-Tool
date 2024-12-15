@@ -25,7 +25,7 @@ https://drive.google.com/drive/folders/1BN0DgaXIAHkKFqZpf51XUxbzJN2tTDJ3?usp=sha
 To compilation of source file :
 --------------------------
 Visual Studio 2022.
-  In 64 bits, mode all dependancy are linked and for execution you could download previous linked to run exececutable generated.
+  In 64 bits mode, all dependancies are linked and for execution : you could download previous linked to run executable generated.
 
 For cut.exe :
 --------------------------
@@ -33,4 +33,4 @@ For cut.exe :
 
 For generate.exe :
 --------------------------
-  CLR is used, so it need the correct package with visual studio to process compilation
+  CLR is used, so it needs the correct package with visual studio to process compilation.
