@@ -28,6 +28,7 @@ void main(int argc, char* argv[])
    
     if (strlen(argv[1]) > 5) {
         std::cout << "pattern must not be more long than 5 Characters \n";
+        return;
     }
         
     
