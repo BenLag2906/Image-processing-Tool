@@ -1,19 +1,20 @@
 # Image-processing-Tool
 
-One executable to extract all image from input  MP4 video file. 
+One executable to extract all image from an input MP4 video file. 
 By running the following command :
-> cut.exe motif
+> cut.exe pat1
 
+notice than pattern "pat1" must not exceed 5 characters.
 
 All images are generated in OUTPUT folder with motif_0000X.jpeg
 
 --------------------------
 Other executable to make an video MP4 File based on jpeg input images.
 By running the following command :
-> generate.exe 2048 1592 motif1 motif2 motif3
+> generate.exe 2048 1592 pat1 pat2 pat3
 
 
-All images are taken in subfolder TIMELINE with motif1_0000X.jpeg, then motif2_0000X.jpeg, motif3_0000X.jpeg. Notice than every images must have the input size. Here option setted, will take account  2048 * 1592 as input size.
+All images are taken in subfolder TIMELINE with pat1_0000X.jpeg, then pat2_0000X.jpeg, pat3_0000X.jpeg. Notice than every images must have the input size. Here option setted, will take account  2048 * 1592 as input size.
 
 --------------------------
 
