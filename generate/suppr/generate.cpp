@@ -66,7 +66,7 @@ int main(int argc, char* argv[])
     }
 
     cout << "pattern  writing video... " << endl;
-    cv::Size sz = cv::Size(4608, 2592);
+    cv::Size sz = cv::Size(w, h);
     Mat framet3 = Mat(sz, CV_8UC3);
     
     writer.open(filename2, codec, fps, sz, true);
@@ -104,7 +104,7 @@ int main(int argc, char* argv[])
 
         while (true)
         {
-            //std::cout << i << " " << integrated << " " << files_motif <<  " " << patterns[index] <<  "\n ";// " All files have been integrated in output movie live.mp4" << "\n";
+            std::cout << i << " " << integrated << " " << files_motif <<  " " << patterns[index] <<  "\n ";// " All files have been integrated in output movie live.mp4" << "\n";
             if (integrated > (files_motif -1)) {
                 std::cout << " All files have been integrated in output movie live.mp4" << "\n";
                 integrated = 0;
@@ -114,14 +114,14 @@ int main(int argc, char* argv[])
 
             try {
                 char buffer[200];
-                snprintf(buffer, 25, "./TIMELINE/%s_%05d.jpeg", patterns[index], i);
-
+                snprintf(buffer, 28, "./TIMELINE/%s_%05d.jpeg", patterns[index], i);
+                std::cout << " file " << buffer << "\n";
 
                 FILE* file;
                 int err = fopen_s(&file, buffer, "r");
                 if (err != 0)
                 {
-
+                    std::cout << " error Empty file " << "\n";
                     i++;
 
                     continue;
