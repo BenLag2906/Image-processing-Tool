@@ -26,14 +26,17 @@ void main(int argc, char* argv[])
     Mat frame;
     std::vector<Mat*> buffer= std::vector<Mat*>();
    
+    if (strlen(argv[1]) > 5) {
+        std::cout << "pattern must not be more long than 5 Characters \n";
+    }
+        
     
    
     int  i = 1;
     while (true)
     {
-        
-        
-
+  
+            
         capture.read(frame);
         // check if we succeeded
         if (frame.empty()) {
@@ -46,7 +49,7 @@ void main(int argc, char* argv[])
             break;
         }
         char bufferexport[200];
-        snprintf(bufferexport, 25, "./OUTPUT/%s_%05d.jpeg", argv[1], i);
+        snprintf(bufferexport, 28, "./OUTPUT/%s_%05d.jpeg", argv[1], i);
         imwrite(bufferexport, frame);
         i++;
 
