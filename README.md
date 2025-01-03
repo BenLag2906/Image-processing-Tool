@@ -3,7 +3,7 @@
 One executable to extract all image from an input MP4 video file. 
 By running the following command :
 > cut.exe pat1
-
+After executethis command in OUPTUT directory : jpeg files are created with the following name "./OUTPUT/pat1_0000X.jpeg"
 notice than pattern "pat1" must not exceed 5 characters.
 
 All images are generated in OUTPUT folder with motif_0000X.jpeg
