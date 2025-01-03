@@ -5,9 +5,9 @@ By running the following command :
 > cut.exe pat1
 
 
-
 After execute this command in OUPTUT directory : jpeg files are created with the following name "./OUTPUT/pat1_0000X.jpeg"
 notice than pattern "pat1" must not exceed 5 characters.
+
 --------------------------
 Other executable to make an video MP4 File based on jpeg input images.
 By running the following command :
